@@ -1,0 +1,8 @@
+a is -2 and its type is <class 'int'>
+b is 3.14 and its type is <class 'float'>
+c is (1+2j) and its type is <class 'complex'>
+d is Hello, World! and its type is <class 'str'>
+e is False and its type is <class 'bool'>
+f is [8, 2.3, [-4, 5], ['apple', 'banana']] and its type is <class 'list'>
+g is (4, 3.14, ('parrot', 'sparrow'), ('Lion', 'Tiger')) and its type is <class 'tuple'>
+h is {'name': 'Shikhar', 'age': 21, 'Country': 'India'} and its type is <class 'dict'>
