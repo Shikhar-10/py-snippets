@@ -1,4 +1,4 @@
-PROG ?= data_types
+PROG ?= operators
 PROG_PATH ?= /home/shikhar10/Shikhar/py-snippets
 Current_DIR = $(shell pwd)
 

@@ -1,0 +1,52 @@
+Arithmetic Operators:
+Operator             a     b     Result
+Addition             10    10    20   
+Subtraction          10    10    0    
+Multiplication       10    10    100  
+Division             10    10    1.0  
+Floor Division       10    10    1    
+Modulus              10    10    0    
+Exponentiation       10    10    10000000000 
+
+Relational Operators:
+Operator                  c     d     Result
+Equal to                  5     10    False
+Not equal to              5     10    True
+Greater than              5     10    False
+Less than                 5     10    True
+Greater than or equal to  5     10    False
+Less than or equal to     5     10    True 
+
+Logical Operators:
+Operator             e     f     Result
+AND                  True  False False
+OR                   True  False True
+NOT                  True  -     False
+NOT                  -     False True 
+
+Bitwise Operators:
+Operator             g     h     Result
+Bitwise AND          10    4     0
+Bitwise OR           10    4     14
+Bitwise XOR          10    4     14
+Bitwise NOT          10    -     -11
+Bitwise Left Shift   10    -     40
+Bitwise Right Shift  10    -     2 
+
+Assignment Operators:
+Operator             i     Result
+Assign               5     5
+Add and assign       15    15
+Subtract and assign  10    10 
+
+Identity Operators:
+Operator             j     k     Result
+is                   10    20    False
+is not               10    20    True 
+
+Membership Operators:
+List: [10, 20, 30, 'Sample']
+Operator             value Result
+in                   10    True
+not in               10    False 
+
