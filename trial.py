@@ -1,0 +1,5 @@
+print("This is my first script.")
+print("Hello, World!")
+print (2*245)
+print (6/5)
+print("Testing", "sep", "and", "end", sep="-", end="001\n")

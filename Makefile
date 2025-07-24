@@ -1,10 +1,10 @@
-PROG ?= python_program
-PROG_PATH ?= /python/project/path
+PROG ?= trial
+PROG_PATH ?= /home/shikhar10/Shikhar/py-snippets
 Current_DIR = $(shell pwd)
 
 # TODO:
-# 1. Add a target to set-program, PROG variable to the desired Python program name
-# 2. Add a target to set-program-path, PROG_PATH variable to the desired directory
+# 1. Add a target to set-program-path, PROG_PATH variable to the desired directory
+# 2. Add a target to set-program, PROG variable to the desired Python program name
 
 .PHONY: 
 	help 
@@ -124,7 +124,7 @@ set-program-path:
 			echo "-----------------------"; \
 			echo "No directory path provided. PROG_PATH not set."; \
 			echo "-----------------------"; \
-		fi
+		fi'
 
 check-program-directory:
 	@echo "Checking Python program directory..."
